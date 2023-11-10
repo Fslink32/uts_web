@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #2e4cb0;
+}
+ 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.login-section {
+    padding: 40px 0;
+}
+  
+.login-toggle {
+    margin-bottom: 40px;
+}
+  
+.login-toggle button {
+    padding: 10px 20px;
+    background-color: #f90;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.login-toggle button.active {
+    background-color: #333;
+}
+  
+.login-form {
+    display: none;
+}
+  
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.login-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+footer {
+    width: 100%;
+    display: block;
+    position: static;
+    bottom: 0px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+  
+footer p {
+    font-size: 14px;
+}
+p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+  
+a {
+    color: #333;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  

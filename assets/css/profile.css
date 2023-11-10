@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #2e4cb0;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.profile-section {
+    padding: 40px 0;
+}
+  
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+  
+.profile-image {
+    flex: 1;
+}
+  
+.profile-image img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+  
+.profile-info {
+    flex: 1;
+    padding: 0 40px;
+}
+  
+.profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.profile-info p {
+    margin-bottom: 10px;
+}
+  
+.edit-button {
+    padding: 10px 20px;
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+footer {
+    width: 100%;
+    display: block;
+    position: static;
+    bottom: 0px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+  
+footer p {
+    font-size: 14px;
+}
+  

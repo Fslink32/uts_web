@@ -21,22 +21,25 @@ class Insert extends Main_controller
 
   public function store()
   {
-    if (!empty($_POST)) {
-      $kode = $_POST['kode'];
-      $jenis = $_POST['jenis'];
-      $nama = $_POST['nama'];
-      $harga = intval($_POST['harga']);
-      $satuan = $_POST['satuan'];
-      $bahan = $_POST['bahan'];
+    if (!empty($_GET)) {
+      $kode = $_GET['kode'];
+      $jenis = $_GET['jenis'];
+      $nama = $_GET['nama'];
+      $harga = intval($_GET['harga']);
+      $satuan = $_GET['satuan'];
+      $bahan = $_GET['bahan'];
       $sql = "INSERT INTO barang_elektronik (kode, jenis, nama, harga, satuan, bahan)
                 VALUES ('$kode', '$jenis', '$nama','$harga','$satuan','$bahan')";
       if ($this->conn->query($sql) === true) {
-        header("Location: " . $this->base_url('login'));
+        header("Location: " . $this->base_url('home'));
         exit;
       } else {
-        header("Location: " . $this->base_url('register'));
+        header("Location: " . $this->base_url('insert'));
         exit;
       }
+    }else{
+      header("Location: " . $this->base_url('insert'));
+        exit;
     }
   }
 }

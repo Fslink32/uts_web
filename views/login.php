@@ -28,7 +28,7 @@
       <input style="height: 100px;" class="form-control mb-2" type="text" name="join_time" id="" placeholder="join_time">
       <span class="text-warning">*Password automatic generate from date you register <br> * 31-12-2023</span>
 
-      <button type="submit" class="btn btn-warning w-25 mx-auto mt-5">Register</button>
+      <button type="submit" class="btn btn-warning w-25 mx-auto mt-5">Login</button>
     </div>
   </form>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

@@ -24,7 +24,7 @@
       </div>
     </div>
   </nav>
-  <form method="POST" action="<?= $this->base_url('insert/store'); ?>" class="container pt-5">
+  <form method="GET" action="<?= $this->base_url('insert/store'); ?>" class="container pt-5">
     <div class="card">
       <div class="card-body">
         <div class="form-group mb-3">
